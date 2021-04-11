@@ -1,13 +1,16 @@
 *{
     margin: 0;
     padding: 0;
+    font-family: 'Kalam', cursive;
 }
+
 
 #home{
     background-image: url("../bg1.jpeg");
     height: 100vh;
 
 }
+
 .content{
     position: absolute;
     display: flex;
@@ -17,7 +20,8 @@
     margin: 30vh 15vw;
 }
 #services{
-    background-color: rgba(156, 154, 154, 0.192);
+    /* background-color: rgba(156, 154, 154, 0.192); */
+    background-color: #FFAA1D;
 }
 #services h1{
     padding-top: 8vh;
@@ -29,7 +33,7 @@
     display: flex;
 }
 .box{
-    border-radius: 50px;
+    border-radius: 10px;
     flex: 33.33%;
     margin: 8vh 2vw;
     padding: 5vh 5vw;
@@ -52,20 +56,55 @@
         flex-direction: column;
         
     }
+    .offers{
+        flex-direction: column;
+    }
+    .offerCard{
+        min-width: 90%;
+        margin-bottom: 20px;
+    }
 }
 #reviews{
-    margin-top: 6vh;
+    background-color: #282625;
 }
-.review{
-    margin: 5vh 2vw;
-}
+
+
+
 .box1{
     display: flex;
 }
 .client{
     display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    background-color: #A6E7FF;
 }
 .logo{
-    max-width: 100%;
+    max-width: 15%;
+    height: 5vh;
     height: auto;
+}
+
+h1{
+    font-size: 8vh;
+    padding: 2px 2px;
+}
+
+.offers{
+    min-height: 30vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.offerCard{
+    width: 30%;
+    min-height: 20vh;
+    padding: 10px 10px;
+    background-color: #310303;
+    border:1px solid;
+    border-color: #87FF2A;
+    border-radius: 5px;
+    color: #87FF2A;
 }
