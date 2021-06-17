@@ -6,24 +6,15 @@
 
 #home {
   background-image: url("../bg1.jpeg");
+  background-size: cover;
+}
 
-}
-button {
-  background-color: chocolate;
-  border: none;
-  border-radius: 3px;
-  padding: 7px;
-  font-weight: bold;
-  cursor: pointer;
-}
-button:hover {
-  background-color: coral;
-}
 .content {
-  position: absolute;
+  /* position: absolute; */
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
   color: white;
   margin: 30vh 15vw;
 }
@@ -60,7 +51,7 @@ button:hover {
     flex-direction: column;
   }
   .content {
-    margin-top: 12vh;
+    /* margin-top: 12vh; */
   }
   .box1 {
     flex-direction: column;
